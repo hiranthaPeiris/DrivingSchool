@@ -38,11 +38,11 @@ public class FadeUp {
                 new KeyValue(myNode.opacityProperty(), 0, sandman),
                 new KeyValue(myNode.translateYProperty(), length, sandman)
             ),
-            new KeyFrame(Duration.millis(600),    
+            new KeyFrame(Duration.millis(1000),    
                 new KeyValue(myNode.opacityProperty(), 1, sandman),
                 new KeyValue(myNode.translateYProperty(), 0, sandman)
             ),
-            new KeyFrame(Duration.millis(800),    
+            new KeyFrame(Duration.millis(1000),    
                 new KeyValue(myNode.opacityProperty(), 1, sandman),
                 new KeyValue(myNode.translateYProperty(), feedBack, sandman)
             )
